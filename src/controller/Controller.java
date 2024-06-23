@@ -5,7 +5,7 @@ import com.google.gson.JsonParser;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class Principal {
+public class Controller {
     public static void main(String[] args) {
         String filePath = "/tmp/exchange.json"; 
         Scanner scanner = new Scanner(System.in);

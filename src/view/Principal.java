@@ -7,7 +7,7 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class controller {
+public class Principal {
     public static void main(String[] args) {
         String urlString = "https://api.coingecko.com/api/v3/exchange_rates";
         String outputPath = "/tmp/exchange.json"; 
